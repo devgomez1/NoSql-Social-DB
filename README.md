@@ -10,8 +10,7 @@
 
 ## Description:
 
-This is a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.
-
+API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.
 ## Technology:
 
 - Node.js
