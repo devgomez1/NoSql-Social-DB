@@ -6,7 +6,7 @@
 2. [Technology](#Technology)
 3. [Installation](#installation)
 4. [Usage](#usage)
-5. [Contact Info](#contact)
+5. [Contact Info](#Contact)
 
 ## Description:
 
@@ -33,11 +33,11 @@ npm install mongoose
 npm start
 ```
 
-#### Walkthrough Video
+## Walkthrough Video
 
 https://drive.google.com/drive/folders/1xHZzrpnqoVbrWOu_xO1qAyW8LDnqNtjL?usp=share_link
 
-#### Screenshots
+## Screenshots
 
 ## Contact Info
 
