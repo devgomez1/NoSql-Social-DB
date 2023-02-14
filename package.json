@@ -1,0 +1,24 @@
+{
+  "name": "nosql-social-db",
+  "version": "1.0.0",
+  "description": "\"social DB\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devgomez1/NoSql-Social-DB.git"
+  },
+  "author": "Devin Gomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devgomez1/NoSql-Social-DB/issues"
+  },
+  "homepage": "https://github.com/devgomez1/NoSql-Social-DB#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.9.1"
+  }
+}
