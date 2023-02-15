@@ -1,5 +1,13 @@
 # NoSql-Social-DB
 
+## User Story 
+```
+User Story
+AS A social media startup
+I WANT an API for my social network that uses a NoSQL database
+SO THAT my website can handle large amounts of unstructured data
+```
+
 ## Table of Contents
 
 1. [Description](#description)
@@ -20,14 +28,15 @@ API for a social network web application where users can share their thoughts, r
 
 ## Installation
 
-To run this project, install it locally using npm and install the required dependancies:
+Install npm and install the required dependancies:
 ```
 npm install
 npm install express
 npm install mongoose
 ```
 ## Usage
- 
+
+Start the application with
 ```
 npm start
 ```
@@ -42,5 +51,5 @@ https://drive.google.com/drive/folders/1xHZzrpnqoVbrWOu_xO1qAyW8LDnqNtjL?usp=sha
 
 Please feel free to contact me if you need any further information:
 
-- [Email](devinelliotgomez@gmail.com)
+- [Email](mailto:devinelliotgomez@gmail.com)
 - [Github](https://github.com/devgomez1)
