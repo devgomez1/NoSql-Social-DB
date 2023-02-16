@@ -14,7 +14,7 @@ SO THAT my website can handle large amounts of unstructured data
 2. [Technology](#Technology)
 3. [Installation](#installation)
 4. [Usage](#usage)
-5. [Contact Info](#Contact)
+5. [Contact Info](#contact-info)
 
 ## Description:
 
