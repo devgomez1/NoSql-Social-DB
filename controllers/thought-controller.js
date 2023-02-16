@@ -1,28 +1,22 @@
 const { User, Thought } = require("../models");
 
 const thoughtController = {
-  findThoughts(req, res) {
-    Thought.find()
-      .populate({
-        path: "thoughts",
-        select: "-__v",
-      })
-      .select("-__v")
-      .sort({ _id: -1 })
-      .then((dbThoughtData) => res.json(dbThoughtData))
-      .catch((err) => {
-        console.log(err);
-        res.status(400).json(err);
-      });
-  },
+    findThoughts(req, res) {
+        Thought.find()
+          .populate({
+            path: 'reactions',
+            select: '-__v'
+          })
+          .then((thoughts) => res.json(thoughts))
+          .catch((err) => res.status(500).json(err));
+      },
 
-  findOneThought({ params }, res) {
-    Thought.findOne({ _id: params.thoughtId })
+  findOneThought(req, res) {
+    Thought.findOne({ _id: req.params.thoughtId })
       .populate({
         path: "reactions",
         select: "-__v",
       })
-      .select("-__v")
       .then((dbThoughtData) => {
         if (!dbThoughtData) {
           return res.status(404).json({ message: "Not an existing thought" });
